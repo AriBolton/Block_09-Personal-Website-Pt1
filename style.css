@@ -1,0 +1,30 @@
+body{
+    margin:0px;
+    background-color: pink;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: aqua;
+    position:sticky; 
+    top: 0%;
+    }
+nav{
+    font-size: 20px;
+    align-self:center;
+}
+.padded_box{
+    background-color: aquamarine;
+}
+.first{
+    background-color: aliceblue;
+}
+.creator{
+    font-size: 30px;
+}
+default_padding{
+    padding: 3rem 1rem;
+}
+.self_image{
+    transform: rotate(90);
+}
