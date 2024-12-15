@@ -1,32 +1,66 @@
-body{
-    margin:0px;
+body {
+    margin: 0px;
     background-color: pink;
 }
-header{
-    display:flex;
+
+header {
+    display: flex;
     justify-content: space-between;
     background-color: aqua;
-    position:sticky; 
+    position: sticky;
     top: 0%;
-    }
-nav{
-    font-size: 20px;
-    align-self:center;
-}
-.padded_box{
-    background-color: aquamarine;
-}
-.first{
-    background-color: aliceblue;
-}
-.creator{
-    font-size: 30px;
 }
 
-.item_wrapper{
+nav {
+    font-size: 20px;
+    align-self: center;
+}
+
+.description {
+    font-size: 45px;
+    font-family: fantasy;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.paragraphs {
+    margin-right: 40px;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.item_wrapper {
     display: flex;
     justify-content: space-around;
+    margin: 10px 50px 0px 50px;
 }
-.self_image{
+
+.self_image {
     padding-top: 20px;
+}
+
+.quote {
+    margin: 30px 50px 0px 50px;
+    font-size: 45px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.individual_headings {
+    font-size: 40px;
+    font-family: cursive;
+    margin-bottom: 2px;
+}
+
+
+.about_sections {
+    display: flex;
+    border-bottom: 3px solid black;
+    justify-content: space-between;
+}
+
+.pics {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
