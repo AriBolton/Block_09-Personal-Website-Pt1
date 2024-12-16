@@ -1,27 +1,74 @@
-body{
-    margin:0px;
+body {
+    margin: 0px;
     background-color: pink;
 }
-header{
-    display:flex;
+
+header {
+    display: flex;
     justify-content: space-between;
     background-color: aqua;
-    position:sticky; 
+    position: sticky;
     top: 0%;
-    }
-nav{
+}
+
+nav {
     font-size: 20px;
-    align-self:center;
+    align-self: center;
 }
-.padded_box{
-    background-color: aquamarine;
+
+.description {
+    font-size: 45px;
+    font-family: fantasy;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
-.first{
-    background-color: aliceblue;
+
+.paragraphs {
+    margin-right: 40px;
+    font-size: 20px;
+    margin-top: 2px;
 }
-.creator{
-    font-size: 30px;
+
+.item_wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 50px 0px 50px;
 }
-default_padding{
-    padding: 3rem 1rem;
+
+.self_image {
+    padding-top: 20px;
+}
+
+.quote {
+    margin: 30px 50px 0px 50px;
+    font-size: 45px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.individual_headings {
+    font-size: 40px;
+    font-family: cursive;
+    margin-bottom: 2px;
+}
+
+
+.about_sections {
+    display: flex;
+    border-bottom: 3px solid black;
+    justify-content: space-between;
+}
+
+.pics {
+    margin: 10px 20px 10px 10px;
+}
+
+.pets {
+    text-align: center;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.side_note {
+    color: blueviolet;
 }
